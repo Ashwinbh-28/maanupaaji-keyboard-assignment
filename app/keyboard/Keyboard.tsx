@@ -29,22 +29,23 @@ const Keyboard = () => {
     }, []);
 
   return (
-    <div className='h-screen flex justify-center items-center'>
-        <div className="flex flex-col gap-2 p-4 bg-neutral-700 rounded-4xl scale-200">
-      {rows.map((row, rowIndex) => (
-        <div key={rowIndex} className="flex gap-2 justify-center text-black">
-          {row.map((key) => (
-            <div
-              key={key}
-              className={`key w-10 h-10 flex items-center justify-center rounded transition ${pressedKey === key ?"bg-blue-500 text-white scale=105" : "bg-gray-200"}
-              hover:bg-blue-300 hover:scale-105 cursor-pointer`}
-            >
-              {key}
-            </div>
-          ))}
-        </div>
-      ))}
-    </div>
+    <div className="h-screen flex justify-center items-center">
+      <div className="flex flex-col gap-2 p-4 bg-neutral-700 scale-200 rainbow-border">
+        {rows.map((row, rowIndex) => (
+          <div key={rowIndex} className="flex gap-2 justify-center text-black">
+            {row.map((key) => (
+              <div
+                key={key}
+                className={`key key-glow relative w-10 h-10 flex items-center justify-center rounded
+    text-white bg-black active:scale-90
+    transition duration-150 ease-in-out cursor-pointer`}
+              >
+                {key}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
