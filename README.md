@@ -4,7 +4,7 @@ A visually interactive virtual keyboard built with **Next.js**, **Tailwind CSS**
 Features keypress detection, hover animations, and a polished dark UI — perfect for learning frontend concepts like layout, events, and styling.
 
 ## 🔗 Live Demo
-👉 [View Project on Vercel](https://maanupaaji-keyboard-assignment-three.vercel.app/)
+👉 [View Project on Vercel](https://maanupaaji-keyboard-assignment-three.vercel.app/ )
 
 ## 🚀 Features
 
