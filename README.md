@@ -10,7 +10,6 @@ Features keypress detection, hover animations, and a polished dark UI — perfec
 
 - ✅ Clean QWERTY layout with special keys (`Tab`, `Shift`, `Backspace`, etc.)
 - 🎯 Real-time keypress highlighting using `useEffect`
-- 💡 Light/Dark theme toggle with context
 - ✨ Hover and click animations
 - 🧼 Fully responsive and keyboard-friendly design
 
@@ -22,7 +21,21 @@ Features keypress detection, hover animations, and a polished dark UI — perfec
 
 ## 📁 Folder Structure
 
-<pre> maanupaaji-keyboard-assignment/ ├── public/ │ └── favicon.ico ├── app/ │ ├── page.tsx │ ├── globals.css │ ├── keyboard/ │ │ └── Keyboard.tsx ├── .gitignore ├── package.json ├── tailwind.config.js ├── postcss.config.js ├── README.md </pre>
+```
+maanupaaji-keyboard-assignment/
+├── public/
+│   └── favicon.ico
+├── app/
+│   ├── page.tsx
+│   ├── globals.css
+│   └── keyboard/
+│       └── Keyboard.tsx
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
 
 
 ## 📦 Installation & Run Locally
