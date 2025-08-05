@@ -1,28 +1,23 @@
 @import "tailwindcss";
 
-body {
-  background-color: black;
-}
 
 .key-glow::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 8px; /* white glow */
-  box-shadow: 5 5 5 0.3 white;
-  filter: blur(3px);
-  z-index: -4;
-  opacity: 0.5;
-  transition:  opacity 0.3s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(98, 98, 241);
+  z-index: -1;
+  opacity: 3;
+  transition:  opacity 100ms ease-out;
 }
+
+.key-glow:hover::before {
+  opacity: 0.5;
+}
+
 .key-glow:active::before {
   opacity: 0;
-}
-.rainbow-border {
-  border-width: 1px;
-  border-style: solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 

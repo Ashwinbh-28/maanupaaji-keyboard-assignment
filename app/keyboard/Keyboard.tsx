@@ -30,13 +30,13 @@ const Keyboard = () => {
 
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="flex flex-col gap-2 p-4 bg-neutral-700 scale-200 rainbow-border">
+      <div className="flex flex-col gap-2 p-4 bg-neutral-900 scale-200 rounded-2xl">
         {rows.map((row, rowIndex) => (
           <div key={rowIndex} className="flex gap-2 justify-center text-black">
             {row.map((key) => (
               <div
                 key={key}
-                className={`key key-glow relative w-10 h-10 flex items-center justify-center rounded
+                className={`key key-glow relative w-10 h-10 flex border items-center justify-center rounded
     text-white bg-black active:scale-90
     transition duration-150 ease-in-out cursor-pointer`}
               >
