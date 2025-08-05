@@ -6,11 +6,6 @@ Features keypress detection, hover animations, and a polished dark UI — perfec
 ## 🔗 Live Demo
 👉 [View Project on Vercel](https://maanupaaji-keyboard-assignment-three.vercel.app/)
 
-## 📸 Screenshots
-
-<!-- Add a screenshot or screen recording here later -->
-<img src="public/screenshot.png" alt="Keyboard UI" width="600"/>
-
 ## 🚀 Features
 
 - ✅ Clean QWERTY layout with special keys (`Tab`, `Shift`, `Backspace`, etc.)
@@ -27,13 +22,7 @@ Features keypress detection, hover animations, and a polished dark UI — perfec
 
 ## 📁 Folder Structure
 
-/app
-/keyboard
-Keyboard.tsx
-Single.tsx
-/public
-sounds/ # optional
-screenshot.png
+<pre> maanupaaji-keyboard-assignment/ ├── public/ │ └── favicon.ico ├── app/ │ ├── page.tsx │ ├── globals.css │ ├── keyboard/ │ │ └── Keyboard.tsx ├── .gitignore ├── package.json ├── tailwind.config.js ├── postcss.config.js ├── README.md </pre>
 
 
 ## 📦 Installation & Run Locally
